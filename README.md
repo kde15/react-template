@@ -1,6 +1,6 @@
 # これは何？
-このリポジトリをcloneするとReactプロジェクトの雛形を簡単に生成できます。
-create-react-appと違うのは、最小限の構成になっているため余計なファイルを含んでいないという点です。
+このリポジトリをcloneするとReactプロジェクトの雛形を簡単に生成できます。<br>
+create-react-appと違うのは、最小限の構成になっているため余計なファイルを含んでいないという点です。<br>
 以下の技術を使用しています。
 * React.js
 * TypeScript
@@ -13,8 +13,8 @@ create-react-appと違うのは、最小限の構成になっているため余�
 # 使い方
 導入
 ```sh
-git clone <repository-path>
-cd <repository-name>
+git clone kde15:kde15/react-template.git
+cd react-template
 npm install
 ```
 
