@@ -13,7 +13,7 @@ create-react-appと違うのは、最小限の構成になっているため余�
 # 使い方
 導入
 ```sh
-git clone kde15:kde15/react-template.git
+git clone https://github.com/kde15/react-template.git
 cd react-template
 npm install
 ```
