@@ -18,6 +18,10 @@ export default defineConfig({
             assets: resolve(__dirname, "assets"),
         },
     },
+    // fix: https://github.com/vitejs/vite/issues/6215
+    optimizeDeps: {
+        include: ["react/jsx-runtime"],
+    },
     define: {
         global: JSON.stringify({}),
     },
