@@ -24,5 +24,7 @@ export default defineConfig({
     },
     define: {
         global: JSON.stringify({}),
+        // クラウド上でホスティングしている環境は環境変数からメタ情報を取得する
+        cloudEnv: JSON.stringify({ APP_TITLE: process.env.APP_TITLE }),
     },
 });
